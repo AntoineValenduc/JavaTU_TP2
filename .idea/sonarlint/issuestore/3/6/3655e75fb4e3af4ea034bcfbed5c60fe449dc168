@@ -1,5 +1,7 @@
 
 [
-java:S5993:"9Change the visibility of this constructor to "protected".(­ô‰©úÿÿÿÿ8¦ÍŸÍ1
+java:S5993D"9Change the visibility of this constructor to "protected".(­ô‰©úÿÿÿÿ8ŠÑÆÍ1
 b
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿óò„8§ÍŸÍ1
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿óò„8„ŠÑÆÍ1
+L	java:S106/"+Replace this use of System.out by a logger.(ü¦†úÿÿÿÿ8ŒŠÑÆÍ1
+L	java:S1069"+Replace this use of System.out by a logger.(ü¦†úÿÿÿÿ8ŠÑÆÍ1

@@ -22,14 +22,6 @@ a
 ^
 .src/main/java/org/example/salarie/Salarie.java,3\6\3655e75fb4e3af4ea034bcfbed5c60fe449dc168
 b
-2src/test/java/org/example/salarie/SalaireTest.java,7\0\704f1ec85b8f5652ee16b73657caf15ee96ad9ac
-^
-.src/test/java/example/salarie/SalaireTest.java,8\4\8461a592dc6c346b18ee5b551777f40f71751389
-V
-&src/test/java/salarie/SalaireTest.java,f\0\f0fc954cecbc0f462490fbbae6f132b9aa64f357
-R
-"src/test/java/salarie/Salaire.java,9\b\9b0ab96f0872d26b8a31af70ae01296d42ecb85c
-b
 2src/test/java/org/example/salarie/SalarieTest.java,8\c\8c05ad3cc44315590d8b856f0b78810e76027ea8
-b
-2src/test/java/org/example/salarie/AdresseTest.java,9\9\993b04d1cba8510c38dbd3d7f55b0caeeeba0513
+v
+Fsrc/test/java/org/example/salarie/SalarieTestIntegrationBrouillon.java,7\e\7e550c8b9785ca37401c591f3a36497c8faaa63b

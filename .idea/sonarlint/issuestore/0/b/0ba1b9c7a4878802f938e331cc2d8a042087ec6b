@@ -1,4 +1,11 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8ÕåÃœÍ1
-F	java:S106
-"+Replace this use of System.out by a logger.(»òÛ;8†âÄœÍ1
+L	java:S106
+"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8Ğ§˜ÆÍ1
+T
+java:S1128"8Remove this unused import 'org.example.salarie.Adresse'.(³³ç8¿ÇûÑÍ1
+V
+java:S1128"9Remove this unused import 'org.example.salarie.Identite'.(•ã”ñ8ÀÇûÑÍ1
+T
+java:S1128"8Remove this unused import 'org.example.salarie.Salaire'.(åÄç8ÀÇûÑÍ1
+]
+java:S1128";Remove this unused import 'org.example.salarie.SalarieCdi'.(ì”Âıÿÿÿÿ8ÀÇûÑÍ1

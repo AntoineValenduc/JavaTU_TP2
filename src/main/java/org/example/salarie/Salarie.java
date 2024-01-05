@@ -13,20 +13,28 @@ public abstract class Salarie {
      * @param adresse nouvelle adresse
      */
     public void demenager(Adresse adresse){
-        if (adresse.getCp() != 0) {
-            identite.getAdresse().setCp(adresse.getCp());
-        }
-        if (adresse.getPays() != null) {
-            identite.getAdresse().setPays(adresse.getPays());
-        }
-        if (adresse.getRue() != null) {
-            identite.getAdresse().setRue(adresse.getRue());
-        }
-        if (adresse.getVoie() != null) {
-            identite.getAdresse().setVoie(adresse.getVoie());
-        }
-        if (adresse.getVille() != null) {
-            identite.getAdresse().setVille(adresse.getVille());
+
+        try {
+            if (adresse.getId() != 0) {
+                identite.getAdresse().setId(adresse.getId());
+            }
+            if (adresse.getCp() != 0) {
+                identite.getAdresse().setCp(adresse.getCp());
+            }
+            if (adresse.getPays() != null) {
+                identite.getAdresse().setPays(adresse.getPays());
+            }
+            if (adresse.getRue() != null) {
+                identite.getAdresse().setRue(adresse.getRue());
+            }
+            if (adresse.getVoie() != null) {
+                identite.getAdresse().setVoie(adresse.getVoie());
+            }
+            if (adresse.getVille() != null) {
+                identite.getAdresse().setVille(adresse.getVille());
+            }
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException("Il ne doit pas y avoir de 0 ou de null dans l'adresse !", e);
         }
     }
 
@@ -35,7 +43,8 @@ public abstract class Salarie {
      * Appelle la méthode payer de la classe Salaire, avec comme paramètre le nombre d'heures par défaut
      */
     public void travailler(){
-        salaire.payer(HEURE_NORMALES);
+        double salaireCalcule = salaire.payer(HEURE_NORMALES);
+        System.out.println("Le salarié " + identite.getPrenom() + " " + identite.getNom() + " a travaillé " + HEURE_NORMALES + " heures et a perçu " + salaireCalcule + " euros");
     }
 
     /**
@@ -44,7 +53,8 @@ public abstract class Salarie {
      * @param heure nombre d'heures travaillées
      */
     public void travailler(double heure){
-        salaire.payer(heure);
+        double salaireCalcule = salaire.payer(heure);
+        System.out.println("Le salarié " + identite.getPrenom() + " " + identite.getNom() + " a travaillé " + HEURE_NORMALES + " heures et a perçu " + salaireCalcule + " euros");
     }
 
     /**
